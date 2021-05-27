@@ -11,6 +11,6 @@
 <jsp:useBean id= "person" type= "pe.com.servlet.Person"  
 scope = "request" />  
 	Bienvenido <c:out value="${person.nombre}"/>
- 	DNI: <c:out value="${person.dni}"/>
+ 	CUI: <c:out value="${person.cui}"/>
 </body>
 </html>
