@@ -9,7 +9,8 @@
 <body>
 	<form action="Servlet">
 		Ingresa nombre<input type="text" name="name">
-		DNI<input type="text" name="dni">
+		Ingresa tus apellidos<input type="text" name="surname">
+		CUI<input type="text" name="cui">
 		<input type="submit" value="Call Servlet"/>
 	</form> 
 </body>
