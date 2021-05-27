@@ -2,7 +2,8 @@ package pe.com.servlet;
 
 public class Person {
 	private String nombre;
-	public String dni;
+	public String apellido;
+	public String cui;
 	public Person() {
 		super();
 	}
@@ -12,12 +13,16 @@ public class Person {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public String getDni() {
-		return dni;
+	public String getApellido() {
+		return apellido;
 	}
-	public void setDni(String dni) {
-		this.dni = dni;
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
 	}
-	
-	
+	public String getCui(){
+		return cui;
+	}
+	public void setCui(String cui){
+		this.cui = cui;
+	}
 }
