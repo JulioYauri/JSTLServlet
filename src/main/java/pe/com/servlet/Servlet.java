@@ -32,10 +32,12 @@ public class Servlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String name = request.getParameter("name");
-		String dni = request.getParameter("dni");
+		String apellido = request.getParameter("apellido");
+		String cui = request.getParameter("cui");
 		Person person = new Person();
 		person.setNombre(name);
-		person.setDni(dni);
+		person.setApellido(apellido);
+		person.setCui(cui);
 		request.setAttribute("person", person);
 		RequestDispatcher dispatcher =
 				request.getRequestDispatcher("/home.jsp");
